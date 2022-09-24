@@ -13,8 +13,8 @@ RUN;
 
 ods text = "Interpretacja zmiennej 1";
 
-title0 "1 Analiza struktury";
-title1 "1.1 Histogramy rozkładu";
+title0 just=l "1 Analiza struktury";
+title1 just=l "1.1 Histogramy rozkładu";
 
 ods text= "To jest bardzo długi tekst, który pojawi się w przeglądarce
 To jest bardzo długi tekst, który pojawi się w przeglądarce
@@ -24,5 +24,5 @@ proc means data=import1;
  var inwest;
 run;
 
-footnote0 "Przypis nr 1";
+footnote0 just=l "Przypis nr 1";
 ods text = "Interpretacja zmiennej 2";
