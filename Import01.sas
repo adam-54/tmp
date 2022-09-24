@@ -13,6 +13,10 @@ RUN;
 
 ods text = "Interpretacja zmiennej 1";
 
+title "To jest bardzo długi tekst, który pojawi się w przeglądarce
+To jest bardzo długi tekst, który pojawi się w przeglądarce
+To jest bardzo długi tekst, który pojawi się w przeglądarce";
+
 proc means data=import1;
  var inwest;
 run;
