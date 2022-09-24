@@ -1,2 +1,3 @@
 head(a01)
-summary(a01$INWEST)
+a<-summary(a01$INWEST)
+print(a)
